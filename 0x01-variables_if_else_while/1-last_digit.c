@@ -12,9 +12,9 @@
 int main(void)
 {
 	int n, m;
+    int last_digit;
 	srand(time(0));
 	n = m = rand() - RAND_MAX / 2;
-    int last_digit;
     last_digit = n % 10;
 	if (last_digit  > 5)
 	{
